@@ -1,0 +1,39 @@
+id 
+href aceita identificador 
+seletor do id é # seguido do nome que deu pra id 	
+
+display block 
+elemento um em baixo do outro
+
+display inline block um do lado do outro 
+<form> + <input id="nome da usuaria" type=text type=email>  nao precisa fechar criar formularios
+<label for=nome da usuaria> nome do input </label>
+
+<button></button> executa acoes 
+
+JAVA SCRIPT
+
+if (document.getElementById('nome')){}
+else {}
+&& usar no lugar do e - operador && 
+document.getElementByID('nome do id')
+
+
+if(document.getElementById("nome") estiver preenchido && document.getElementById("email") estiver preenchido){
+  envie os dados
+}else{
+  peça a usuária que preencha os campos nome e email
+}
+value- valor .value
+string todo texto que esta entre ""
+== igual
+!= diferente 
+
+alert("mensagem")
+
+if(document.getElementById("nome").value != "" && document.getElementById("email").value != ""){
+  alert("Prontinho! Você receberá as novidades por email.")
+}else{
+  alert("Por favor, preencha os campos nome e email!")
+}
+
